@@ -1,38 +1,6 @@
 {
   "models": [
     {
-      "id": "gpt-4.1",
-      "name": "GPT-4.1",
-      "provider": "OpenAI",
-      "providerId": "openai",
-      "enabled": true,
-      "toolCallType": "native"
-    },
-    {
-      "id": "gpt-4.1-mini",
-      "name": "GPT-4.1 mini",
-      "provider": "OpenAI",
-      "providerId": "openai",
-      "enabled": true,
-      "toolCallType": "native"
-    },
-    {
-      "id": "gpt-4.1-nano",
-      "name": "GPT-4.1 nano",
-      "provider": "OpenAI",
-      "providerId": "openai",
-      "enabled": true,
-      "toolCallType": "native"
-    },
-    {
-      "id": "o3-mini",
-      "name": "o3 mini",
-      "provider": "OpenAI",
-      "providerId": "openai",
-      "enabled": true,
-      "toolCallType": "native"
-    },
-    {
       "id": "gpt-4o",
       "name": "GPT-4o",
       "provider": "OpenAI",
@@ -43,6 +11,22 @@
     {
       "id": "gpt-4o-mini",
       "name": "GPT-4o mini",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4-turbo",
+      "name": "GPT-4 Turbo",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
       "provider": "OpenAI",
       "providerId": "openai",
       "enabled": true,
@@ -73,15 +57,7 @@
       "toolCallType": "native"
     },
     {
-      "id": "<AZURE_DEPLOYMENT_NAME>",
-      "name": "<AZURE_DEPLOYMENT_NAME>",
-      "provider": "Azure",
-      "providerId": "azure",
-      "enabled": true,
-      "toolCallType": "native"
-    },
-    {
-      "id": "gemini-2.0-flash",
+      "id": "gemini-2.0-flash-exp",
       "name": "Gemini 2.0 Flash",
       "provider": "Google Generative AI",
       "providerId": "google",
@@ -89,22 +65,20 @@
       "toolCallType": "native"
     },
     {
-      "id": "gemini-2.0-flash-thinking-exp-01-21",
-      "name": "Gemini 2.0 Flash Thinking (Exp)",
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 Pro",
       "provider": "Google Generative AI",
       "providerId": "google",
       "enabled": true,
-      "toolCallType": "manual",
-      "toolCallModel": "gemini-2.0-flash"
+      "toolCallType": "native"
     },
     {
-      "id": "gemini-2.5-pro-exp-03-25",
-      "name": "Gemini 2.5 Pro (Exp)",
+      "id": "gemini-1.5-flash",
+      "name": "Gemini 1.5 Flash",
       "provider": "Google Generative AI",
       "providerId": "google",
       "enabled": true,
-      "toolCallType": "manual",
-      "toolCallModel": "gemini-2.0-flash"
+      "toolCallType": "native"
     },
     {
       "id": "accounts/fireworks/models/deepseek-r1",
@@ -116,13 +90,12 @@
       "toolCallModel": "accounts/fireworks/models/llama-v3p1-8b-instruct"
     },
     {
-      "id": "accounts/fireworks/models/llama4-maverick-instruct-basic",
-      "name": "Llama 4 Maverick",
+      "id": "accounts/fireworks/models/llama-v3p1-70b-instruct",
+      "name": "Llama 3.1 70B",
       "provider": "Fireworks",
       "providerId": "fireworks",
       "enabled": true,
-      "toolCallType": "manual",
-      "toolCallModel": "accounts/fireworks/models/llama-v3p1-8b-instruct"
+      "toolCallType": "native"
     },
     {
       "id": "deepseek-reasoner",
@@ -151,8 +124,16 @@
       "toolCallModel": "llama-3.1-8b-instant"
     },
     {
-      "id": "meta-llama/llama-4-maverick-17b-128e-instruct",
-      "name": "Llama 4 Maverick 17B",
+      "id": "llama-3.3-70b-versatile",
+      "name": "Llama 3.3 70B",
+      "provider": "Groq",
+      "providerId": "groq",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "llama-3.1-70b-versatile",
+      "name": "Llama 3.1 70B",
       "provider": "Groq",
       "providerId": "groq",
       "enabled": true,
@@ -166,15 +147,6 @@
       "enabled": true,
       "toolCallType": "manual",
       "toolCallModel": "phi4"
-    },
-    {
-      "id": "<OLLAMA_MODEL_ID>",
-      "name": "<OLLAMA_MODEL_NAME>",
-      "provider": "Ollama",
-      "providerId": "ollama",
-      "enabled": true,
-      "toolCallType": "manual",
-      "toolCallModel": "<OLLAMA_MODEL_ID>"
     },
     {
       "id": "grok-2-1212",
@@ -193,28 +165,12 @@
       "toolCallType": "native"
     },
     {
-      "id": "grok-3-beta",
-      "name": "Grok 3 Beta",
-      "provider": "xAI",
-      "providerId": "xai",
-      "enabled": true,
-      "toolCallType": "native"
-    },
-    {
       "id": "gemini-nano",
       "name": "Gemini Nano",
       "provider": "Chrome AI",
       "providerId": "chrome",
       "enabled": true,
       "toolCallType": "manual"
-    },
-    {
-      "id": "<OPENAI_COMPATIBLE_MODEL>",
-      "name": "<OPENAI_COMPATIBLE_MODEL>",
-      "provider": "OpenAI Compatible",
-      "providerId": "openai-compatible",
-      "enabled": true,
-      "toolCallType": "native"
     }
   ]
 }
