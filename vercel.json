@@ -3,9 +3,5 @@
   "devCommand": "bun dev",
   "installCommand": "bun install",
   "framework": "nextjs",
-  "outputDirectory": ".next",
-  "env": {
-    "OPENAI_API_KEY": "@openai_api_key",
-    "TAVILY_API_KEY": "@tavily_api_key"
-  }
+  "outputDirectory": ".next"
 }
