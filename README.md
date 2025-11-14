@@ -200,20 +200,20 @@ The default model configuration is located at `public/config/models.json`. For D
 
 ### Setting up the Search Engine in Your Browser
 
-If you want to use Modalis as a search engine in your browser, follow these steps:
+If you want to use Grahmos as a search engine in your browser, follow these steps:
 
 1. Open your browser settings.
 2. Navigate to the search engine settings section.
 3. Select "Manage search engines and site search".
 4. Under "Site search", click on "Add".
 5. Fill in the fields as follows:
-   - **Search engine**: Modalis
-   - **Shortcut**: modalis
-   - **URL with %s in place of query**: `https://modalis.vercel.app/search?q=%s`
+   - **Search engine**: Grahmos
+   - **Shortcut**: grahmos
+   - **URL with %s in place of query**: `https://grahmos.vercel.app/search?q=%s`
 6. Click "Add" to save the new search engine.
-7. Find "Modalis" in the list of site search, click on the three dots next to it, and select "Make default".
+7. Find "Grahmos" in the list of site search, click on the three dots next to it, and select "Make default".
 
-This will allow you to use Modalis as your default search engine in the browser.
+This will allow you to use Grahmos as your default search engine in the browser.
 
 ## 💙 Sponsors
 
@@ -225,7 +225,7 @@ This project is proudly supported by:
 
 ## 👥 Contributing
 
-We welcome contributions to Modalis! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
+We welcome contributions to Grahmos! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
 
 Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 
