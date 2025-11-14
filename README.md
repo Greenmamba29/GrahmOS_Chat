@@ -2,7 +2,7 @@
 
 An AI-powered search and chat platform with advanced reasoning capabilities.
 
-Live: https://grahmoschatv1-nw1ei5ulc-greenmamba29s-projects.vercel.app/
+Live: https://www.grahmos.net/
 Repo: https://github.com/Greenmamba29/GrahmOS_Chat.git
 
 ![capture](/public/screenshot-2025-05-04.png)
@@ -209,7 +209,7 @@ If you want to use GrahmOS Chat as a search engine in your browser, follow these
 5. Fill in the fields as follows:
    - **Search engine**: GrahmOS Chat
    - **Shortcut**: grahmos
-   - **URL with %s in place of query**: `https://grahmoschatv1-nw1ei5ulc-greenmamba29s-projects.vercel.app/search?q=%s`
+   - **URL with %s in place of query**: `https://www.grahmos.net/search?q=%s`
 6. Click "Add" to save the new search engine.
 7. Find "GrahmOS Chat" in the list of site search, click on the three dots next to it, and select "Make default".
 

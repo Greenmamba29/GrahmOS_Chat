@@ -26,7 +26,7 @@ const description =
   'AI-powered search and chat platform with advanced reasoning capabilities. Built with GrahmOS.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://grahmoschatv1-nw1ei5ulc-greenmamba29s-projects.vercel.app'),
+  metadataBase: new URL('https://www.grahmos.net'),
   title,
   description,
   openGraph: {
