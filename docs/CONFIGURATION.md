@@ -1,6 +1,6 @@
 # Configuration Guide
 
-This guide covers the optional features and their configuration in Modalis.
+This guide covers the optional features and their configuration in Grahmos.
 
 ## Table of Contents
 

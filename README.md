@@ -1,9 +1,9 @@
-# Modalis
+# Grahmos
 
 An AI-powered search engine with a generative UI.
 
-Live: https://modalis.vercel.app/
-Repo: https://github.com/Owusu1946/modalis.git
+Live: https://grahmos.vercel.app/
+Repo: https://github.com/Greenmamba29/GrahmOS_Chat.git
 
 ![capture](/public/screenshot-2025-05-04.png)
 
@@ -18,7 +18,7 @@ Repo: https://github.com/Owusu1946/modalis.git
 - 👥 [Contributing](#-contributing)
 - 📄 [License](#-license)
 
-📝 Explore AI-generated documentation on [DeepWiki](https://deepwiki.com/miurla/modalis)
+📝 Explore AI-generated documentation on [DeepWiki](https://deepwiki.com/greenmamba29/grahmos)
 
 ## 🛠 Features
 
@@ -123,13 +123,13 @@ Models are configured in `public/config/models.json` (with fallback to `lib/conf
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```bash
-git clone https://github.com/Owusu1946/modalis.git
+git clone https://github.com/Greenmamba29/GrahmOS_Chat.git
 ```
 
 ### 2. Install dependencies
 
 ```bash
-cd modalis
+cd GrahmOS_Chat
 bun install
 ```
 
@@ -167,26 +167,26 @@ Visit http://localhost:3000 in your browser.
 
 ## 🌐 Deploy
 
-Host your own live version of Modalis with Vercel, Cloudflare Pages, or Docker.
+Host your own live version of Grahmos with Vercel, Cloudflare Pages, or Docker.
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOwusu1946%2Fmodalis&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FGreenmamba29%2FGrahmOS_Chat&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
 
 ### Docker Prebuilt Image
 
 Prebuilt Docker images are available on GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/owusu1946/modalis:latest
+docker pull ghcr.io/greenmamba29/grahmos:latest
 ```
 
 You can use it with docker-compose:
 
 ```yaml
 services:
-  modalis:
-    image: ghcr.io/owusu1946/modalis:latest
+  grahmos:
+    image: ghcr.io/greenmamba29/grahmos:latest
     env_file: .env.local
     ports:
       - '3000:3000'

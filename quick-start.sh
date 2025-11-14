@@ -1,10 +1,10 @@
 #!/bin/bash
-# Modalis Quick Start Script
-# This script helps you get Modalis up and running quickly
+# Grahmos Quick Start Script
+# This script helps you get Grahmos up and running quickly
 
 set -e
 
-echo "🚀 Modalis Quick Start"
+echo "🚀 Grahmos Quick Start"
 echo "======================"
 echo ""
 

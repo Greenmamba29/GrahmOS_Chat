@@ -1,4 +1,4 @@
-# Quick Deployment Guide - Modalis (Fixed Models)
+# Quick Deployment Guide - Grahmos (Fixed Models)
 
 ## Changes Made
 
@@ -42,7 +42,7 @@ The following issues have been resolved:
    ```
 
    Or use the one-click deploy button:
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOwusu1946%2Fmodalis)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FGreenmamba29%2FGrahmOS_Chat)
 
 ### Option 2: Docker (Quick Local - 2 minutes)
 
@@ -169,4 +169,4 @@ DEEPSEEK_API_KEY=your_key
 
 - Documentation: See `docs/CONFIGURATION.md` for detailed setup
 - Issues: Check GitHub issues for common problems
-- Original repo: https://github.com/Owusu1946/modalis
+- Original repo: https://github.com/Greenmamba29/GrahmOS_Chat

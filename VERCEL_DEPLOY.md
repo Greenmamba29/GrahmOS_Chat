@@ -19,7 +19,7 @@ git add .
 git commit -m "Fixed model configuration for deployment"
 
 # Add your GitHub remote (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/modalis.git
+git remote add origin https://github.com/YOUR_USERNAME/grahmos.git
 
 # Push to GitHub
 git push -u origin main
@@ -30,7 +30,7 @@ git push -u origin main
 1. **Go to Vercel**: https://vercel.com
 2. **Sign up/Login** with your GitHub account
 3. **Click "Add New"** → "Project"
-4. **Import your GitHub repository** (modalis)
+4. **Import your GitHub repository** (grahmos)
 5. **Configure Project**:
    - Framework Preset: **Next.js** (auto-detected)
    - Build Command: `bun run build` or leave default
@@ -51,7 +51,7 @@ git push -u origin main
 7. **Click "Deploy"** and wait 2-3 minutes
 
 8. **Your app will be live!** Vercel will provide a URL like:
-   `https://modalis-xyz123.vercel.app`
+   `https://grahmos-xyz123.vercel.app`
 
 ### Step 3: Test Your Deployment
 
@@ -65,7 +65,7 @@ git push -u origin main
 
 ## Option 2: One-Click Deploy Button
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME%2Fmodalis&env=OPENAI_API_KEY,TAVILY_API_KEY&envDescription=API%20Keys%20required%20for%20Modalis&envLink=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME%2Fmodalis%2Fblob%2Fmain%2FVERCEL_DEPLOY.md)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME%2Fgrahmos&env=OPENAI_API_KEY,TAVILY_API_KEY&envDescription=API%20Keys%20required%20for%20Grahmos&envLink=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME%2Fgrahmos%2Fblob%2Fmain%2FVERCEL_DEPLOY.md)
 
 **Note:** Replace `YOUR_USERNAME` with your GitHub username in the URL above.
 
@@ -100,7 +100,7 @@ vercel
 # - Set up and deploy? Yes
 # - Which scope? (your account)
 # - Link to existing project? No
-# - What's your project's name? modalis
+# - What's your project's name? grahmos
 # - In which directory is your code located? ./
 # - Want to override settings? No
 ```

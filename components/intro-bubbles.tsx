@@ -9,7 +9,7 @@ interface IntroBubblesProps {
 }
 
 const script = [
-  { text: "Hey, I'm Modalis.", typingMs: 600, displayMs: 1200 },
+  { text: "Hey, I'm Grahmos.", typingMs: 600, displayMs: 1200 },
   { text: "What do you want to do?", typingMs: 500, displayMs: 1400 },
   { text: "I can search, summarize, or chat.", typingMs: 500, displayMs: 1600 }
 ]

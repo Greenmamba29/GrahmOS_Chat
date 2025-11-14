@@ -39,7 +39,7 @@ export async function GET() {
         'Authorization': `Basic ${auth}`,
         'Content-Type': 'application/x-www-form-urlencoded',
         'Content-Length': postData.length,
-        'User-Agent': 'modalis/1.0'
+        'User-Agent': 'grahmos/1.0'
       },
       timeout: 30000
     }

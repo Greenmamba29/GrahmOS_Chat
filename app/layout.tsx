@@ -21,12 +21,12 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Modalis'
+const title = 'Grahmos'
 const description =
   'A fully open-source AI-powered answer engine with a generative UI.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://modalis.sh'),
+  metadataBase: new URL('https://grahmos.sh'),
   title,
   description,
   openGraph: {

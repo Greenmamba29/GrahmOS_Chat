@@ -35,7 +35,7 @@ export async function GET() {
         headers: {
           'Authorization': `Basic ${basic}`,
           'Content-Type': 'application/x-www-form-urlencoded',
-          'User-Agent': 'modalis/1.0'
+          'User-Agent': 'grahmos/1.0'
         },
         body: new URLSearchParams({ grant_type: 'client_credentials' }),
         signal: controller.signal

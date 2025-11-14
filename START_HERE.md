@@ -1,4 +1,4 @@
-# 🚀 START HERE - Modalis Fixed & Ready to Deploy
+# 🚀 START HERE - Grahmos Fixed & Ready to Deploy
 
 ## What Was Fixed? ✅
 
@@ -132,7 +132,7 @@ PORT=3001 bun dev
 
 ## Support
 
-- GitHub Issues: https://github.com/Owusu1946/modalis/issues
+- GitHub Issues: https://github.com/Greenmamba29/GrahmOS_Chat/issues
 - Original Docs: See README.md
 
 ---
