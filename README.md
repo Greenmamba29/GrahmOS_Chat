@@ -1,8 +1,8 @@
-# Grahmos
+# GrahmOS Chat
 
-An AI-powered search engine with a generative UI.
+An AI-powered search and chat platform with advanced reasoning capabilities.
 
-Live: https://grahmos.vercel.app/
+Live: https://modalis-red.vercel.app/
 Repo: https://github.com/Greenmamba29/GrahmOS_Chat.git
 
 ![capture](/public/screenshot-2025-05-04.png)
@@ -167,7 +167,7 @@ Visit http://localhost:3000 in your browser.
 
 ## 🌐 Deploy
 
-Host your own live version of Grahmos with Vercel, Cloudflare Pages, or Docker.
+Host your own live version of GrahmOS Chat with Vercel, Cloudflare Pages, or Docker.
 
 ### Vercel
 
@@ -178,15 +178,15 @@ Host your own live version of Grahmos with Vercel, Cloudflare Pages, or Docker.
 Prebuilt Docker images are available on GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/greenmamba29/grahmos:latest
+docker pull ghcr.io/greenmamba29/grahmos-chat:latest
 ```
 
 You can use it with docker-compose:
 
 ```yaml
 services:
-  grahmos:
-    image: ghcr.io/greenmamba29/grahmos:latest
+  grahmos-chat:
+    image: ghcr.io/greenmamba29/grahmos-chat:latest
     env_file: .env.local
     ports:
       - '3000:3000'
@@ -200,20 +200,20 @@ The default model configuration is located at `public/config/models.json`. For D
 
 ### Setting up the Search Engine in Your Browser
 
-If you want to use Grahmos as a search engine in your browser, follow these steps:
+If you want to use GrahmOS Chat as a search engine in your browser, follow these steps:
 
 1. Open your browser settings.
 2. Navigate to the search engine settings section.
 3. Select "Manage search engines and site search".
 4. Under "Site search", click on "Add".
 5. Fill in the fields as follows:
-   - **Search engine**: Grahmos
+   - **Search engine**: GrahmOS Chat
    - **Shortcut**: grahmos
-   - **URL with %s in place of query**: `https://grahmos.vercel.app/search?q=%s`
+   - **URL with %s in place of query**: `https://modalis-red.vercel.app/search?q=%s`
 6. Click "Add" to save the new search engine.
-7. Find "Grahmos" in the list of site search, click on the three dots next to it, and select "Make default".
+7. Find "GrahmOS Chat" in the list of site search, click on the three dots next to it, and select "Make default".
 
-This will allow you to use Grahmos as your default search engine in the browser.
+This will allow you to use GrahmOS Chat as your default search engine in the browser.
 
 ## 💙 Sponsors
 
@@ -225,7 +225,7 @@ This project is proudly supported by:
 
 ## 👥 Contributing
 
-We welcome contributions to Grahmos! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
+We welcome contributions to GrahmOS Chat! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
 
 Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 

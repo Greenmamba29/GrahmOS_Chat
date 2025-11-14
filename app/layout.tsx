@@ -21,12 +21,12 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Grahmos'
+const title = 'GrahmOS Chat'
 const description =
-  'A fully open-source AI-powered answer engine with a generative UI.'
+  'AI-powered search and chat platform with advanced reasoning capabilities. Built with GrahmOS.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://grahmos.sh'),
+  metadataBase: new URL('https://modalis-red.vercel.app'),
   title,
   description,
   openGraph: {

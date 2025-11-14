@@ -9,7 +9,7 @@ interface IntroBubblesProps {
 }
 
 const script = [
-  { text: "Hey, I'm Grahmos.", typingMs: 600, displayMs: 1200 },
+  { text: "Hey, I'm GrahmOS.", typingMs: 600, displayMs: 1200 },
   { text: "What do you want to do?", typingMs: 500, displayMs: 1400 },
   { text: "I can search, summarize, or chat.", typingMs: 500, displayMs: 1600 }
 ]
@@ -65,22 +65,22 @@ export function IntroBubbles({ onSelect }: IntroBubblesProps) {
         )}
         aria-live="polite"
       >
-        <div className="bg-white border border-gray-200 rounded-[16px] px-3 py-2 shadow-[0_2px_8px_rgba(0,0,0,0.05)]">
+        <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-[16px] px-3 py-2 shadow-[0_2px_8px_rgba(37,99,235,0.08)]">
           {typing ? (
             <div className="flex items-center justify-center gap-1 h-4" aria-label="Typing">
-              <span className="inline-block w-1 h-1 rounded-full bg-gray-300" style={{ animation: 'typingDot 1.2s ease-in-out infinite', animationDelay: '0ms' }} />
-              <span className="inline-block w-1 h-1 rounded-full bg-gray-300" style={{ animation: 'typingDot 1.2s ease-in-out infinite', animationDelay: '140ms' }} />
-              <span className="inline-block w-1 h-1 rounded-full bg-gray-300" style={{ animation: 'typingDot 1.2s ease-in-out infinite', animationDelay: '280ms' }} />
+              <span className="inline-block w-1 h-1 rounded-full bg-blue-600" style={{ animation: 'typingDot 1.2s ease-in-out infinite', animationDelay: '0ms' }} />
+              <span className="inline-block w-1 h-1 rounded-full bg-blue-600" style={{ animation: 'typingDot 1.2s ease-in-out infinite', animationDelay: '140ms' }} />
+              <span className="inline-block w-1 h-1 rounded-full bg-blue-600" style={{ animation: 'typingDot 1.2s ease-in-out infinite', animationDelay: '280ms' }} />
             </div>
           ) : (
-            <p className="text-gray-600 text-sm font-medium whitespace-nowrap leading-tight min-h-[1rem]">
+            <p className="text-gray-800 dark:text-gray-100 text-sm font-medium whitespace-nowrap leading-tight min-h-[1rem]">
               {currentText}
             </p>
           )}
         </div>
         {/* Tail */}
         <div className="absolute left-1/2 top-full -translate-x-1/2 -mt-[6px]">
-          <div className="w-3 h-3 rotate-45 bg-white border border-gray-200" />
+          <div className="w-3 h-3 rotate-45 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700" />
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export function IntroBubbles({ onSelect }: IntroBubblesProps) {
               type="button"
               onClick={() => onSelect?.(item.key as any)}
               className={
-                "px-4 py-2 rounded-full border border-gray-300 bg-white text-sm text-gray-700 hover:bg-gray-50 transition focus:outline-none focus:ring-2 focus:ring-gray-300"
+                "px-4 py-2 rounded-full border border-blue-600 bg-white dark:bg-gray-800 text-sm text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950 transition focus:outline-none focus:ring-2 focus:ring-blue-600"
               }
               style={{ animation: 'fadeInUp 320ms ease both', animationDelay: `${idx * 80}ms` }}
             >
